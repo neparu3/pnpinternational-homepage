@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<title>Home | pnpinternational</title>
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<link href="https://fonts.googleapis.com/css?family-karla" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+ </head>
+
+<body>
+
+	<div id="web_body">
+
+	<header>
+		<div class="lang">
+				<div class="selected_lang">
+				<a href="index.html"><img src="images/us_flag.jpeg">English</a></br></div>
+		    
+		    	<ul>
+		    		<li>
+		    			<a><!--<img src="images/us_flag.jpeg">-->English</a>
+		    		</li>
+		    		<li>
+		    			<a><img src="images/japan_flag.png">日本語</a>
+		    		</li>
+		    	</ul>
+		    </div>
+
+		<div id="header_inner" class="cf">
+			<h1>
+				<a href="index.html"> <img src="images/logo.png" alt="logo" ></a>
+			</h1>
+
+			
+			<nav>
+				<ul>
+					<li class="currentpage"><a href="index.html">Home</a></li>
+					<li><a href="Company.html">Company</a></li>
+					<li><a href="Business.html">Business</a></li>
+					<li><a href="Our Products.html">Our Products</a></li>
+					<li><a href="Access.html">Access</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+		</div>
+
+			
+	</header>
+
+	<div class="gototop"><a href="#"><img src="images/gototop.jpg"></a>
+	</div>
+
+	<div class="container">
+				<!-- Slider main container -->
+		<div class="swiper">
+		  <!-- Additional required wrapper -->
+		  <div class="swiper-wrapper">
+		    <!-- Slides -->
+		    <div class="swiper-slide"><img src="images/spices.jpg"></div>
+		    <div class="swiper-slide"><img src="images/beans&lentils.jpg"></div>
+		    <div class="swiper-slide"><img src="images/spices_1.jpg"></div>
+		    <div class="swiper-slide"><img src="images/beans_1.jpg"></div>
+		  </div>
+		  <!-- If we need pagination -->
+		  <div class="swiper-pagination"></div>
+
+		  <!-- If we need navigation buttons -->
+		  <!--<div class="swiper-button-prev"></div>
+		  <div class="swiper-button-next"></div>-->
+
+		</div>
+	</div>
+
+	
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+		
+	</script>	
+
+	<script>
+		  const swiper = new Swiper('.swiper', {
+		  	autoplay: {
+		  		delay: 3000,
+		  		reverseDirection: true,
+		  		disableOnInteraction: false,
+
+		  	},
+		  // Optional parameters
+		  loop: true,
+
+		  // If we need pagination
+		  pagination: {
+		    el: '.swiper-pagination',
+		    clickable: true,
+		  },
+
+		  // Navigation arrows
+		  navigation: {
+		    nextEl: '.swiper-button-next',
+		    prevEl: '.swiper-button-prev',
+		  },
+
+		});
+	</script>
+		<h2>Our Services</h2>
+
+	<div class="container2">
+		
+		<div class="box">
+			<img src="images/halaal.jpg">
+			<h3>Halaal Food</h3>
+			<p>We provide all kind of spices, beans & lentils,
+			 snacks and many others</p>	
+		</div>	
+		<div class="box">
+			<img src="images/translate.jpg">
+			<h3>Documentation & Translation</h3>
+			<p>Remember us for translation from Japanese to English, Nepali, Hindi and vice versa. We can also help you in documentation for visa process, permanent residence and neutralization</p>
+		</div>
+		<div class="box">
+			<img src="images/remittance.png">
+			<h3>WorlWide Money Transfer</h3>
+			<p>Remember us for sending money to your loved ones from Japan to any country</p>
+		</div>
+
+	</div>
+		
+<footer>
+		<div id="footer_inner">
+			<p>Copyright (C) 2024 All Right Reserved.</p>
+			<div id="nav_footer">
+				<ul>
+					<li  class="currentpage"><a href="index.html">Home</a></li>
+					<li><a href="Company.html">Company</a></li>
+					<li><a href="Business.html">Business</a></li>
+					<li><a href="Our Products.html">Our Products</a></li>
+					<li><a href="Access.html">Access</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	
+	</footer>
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
